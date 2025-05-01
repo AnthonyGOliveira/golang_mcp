@@ -1,8 +1,4 @@
-# Nome do Projeto
-
-## Sobre o Projeto
-
-Breve descrição do seu projeto e seu propósito principal.
+# Golang mcp server
 
 ## Histórico de Alterações
 
