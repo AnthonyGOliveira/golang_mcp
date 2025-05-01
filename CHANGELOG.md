@@ -1,12 +1,19 @@
 # Changelog
-
 Todas as alterações notáveis neste projeto serão documentadas neste arquivo.
-
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
 e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
-## [0.1.0] - 2025-05-01
+## [0.1.1] - 2025-05-01
+### Adicionado
+- Testes unitários para o endpoint `/health` com validação de resposta HTTP
+- Makefile para automação de tarefas comuns:
+  - Execução da aplicação (`make run`)
+  - Execução de testes (`make test`)
+  - Relatórios de cobertura de testes (`make cover`)
+  - Limpeza de arquivos gerados (`make clean`)
+  - Ajuda sobre comandos disponíveis (`make help`)
 
+## [0.1.0] - 2025-05-01
 ### Adicionado
 - Estrutura inicial do projeto
 - Configuração básica do servidor Go
