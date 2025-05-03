@@ -15,7 +15,7 @@ test:
 cover: cover-test cover-report
 
 cover-test:
-	go test ./... -coverprofile=coverage.out
+	go test -coverprofile=coverage.out -covermode=atomic -coverpkg=./internal/... ./internal/...
 
 cover-report:
 	go tool cover -html=coverage.out
